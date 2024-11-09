@@ -1,4 +1,4 @@
-# Galludet: ASL-Speech Converter
+# Gallaudet: ASL-Speech Converter
 Converts ASL footage to spoken words and vice versa
 
 Technologies used: ChatGPT 4o

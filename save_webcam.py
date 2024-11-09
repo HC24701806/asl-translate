@@ -10,7 +10,7 @@ else:
         # Capture a frame from the webcam
         ret, frame = cap.read()
         if ret:
-            cv2.imwrite('photo.jpg', frame)
+            cv2.imwrite('photo.png', frame)
             time.sleep(1)
         else:
             print("Error: Could not capture an image.")

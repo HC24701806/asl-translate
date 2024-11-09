@@ -10,7 +10,3 @@ import time
 import save_webcam
 import create_data
 
-
-
-save_webcam.recVideo()
-

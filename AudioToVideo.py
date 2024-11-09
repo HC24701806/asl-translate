@@ -6,7 +6,9 @@ import requests
 import time
 import cv2
 import time
-import save_webcam
 
-import generateText
+import SpeechToText
 import generateImage
+
+SpeechToText.example_audio_transcription()
+generateImage.example_image_generation()

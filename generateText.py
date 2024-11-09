@@ -11,7 +11,7 @@ client = OpenAI(
 )
 
 
-def genText():
+def genText(description):
     THIS_MODEL = "gpt-4o-mini"
     # Function to encode the image
     def encode_image(image_path):
@@ -29,7 +29,7 @@ def genText():
                     "role": "system",
                     "content": [
                         {"type": "text",
-                        "text": "Using american sign language symbols, identify the american sign language symbol in the image in ONE word. If you cannot recognize an american sign language symbol then just print a blank space."
+                        "text": "Using american sign language symbols, identify the american sign language symbol in the image in ONE word. If you cannot recognize an american sign language symbol try to find the closest word for it and move on. NEVER print more than a single word."
                         }
                     ],
                 },

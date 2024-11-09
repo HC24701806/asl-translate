@@ -4,6 +4,7 @@ from openai import OpenAI
 TEAM_API_KEY = "sk-KkfSNYD468LsWAALZtAObg"
 PROXY_ENDPOINT = "https://nova-litellm-proxy.onrender.com"
 
+
 def example_tts():
     """
     Examples of text-to-speech from the proxy

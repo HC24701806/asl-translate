@@ -1,7 +1,7 @@
 # Gallaudet: ASL-Speech Converter
 Converts ASL footage to spoken words and vice versa
 
-Technologies used: ChatGPT 4o
+Technologies used: ChatGPT-4o
 
 Submission for 2024 Nova
 
